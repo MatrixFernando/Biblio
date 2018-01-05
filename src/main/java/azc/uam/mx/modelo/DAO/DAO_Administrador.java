@@ -28,14 +28,9 @@ public class DAO_Administrador
 
 			if(cn!=null)
 			{
-				/*	Statement ps =   cn.createStatement();
-				ps.executeUpdate( "Insert into Administrador (Numero_Economico, Nombres, Apellido_Paterno, Apellido_Materno, Edad, Email, Contrasenia ) VALUES ("+8888+","+Admin.getNombres()+","+"'jojijigmailcom'"+", "+"'AdmingetApellido_materno'"+", "+"'555'"+", "+"'jojiji@gmail.com'"+", "+"'Admin.getContrasenia'"+" )");
-				System.out.println("jajaj"); 
-				 */
 
 
 				PreparedStatement ps = cn.prepareStatement(sql);
-
 				ps.setLong(1, Admin.getNumero_economico());
 				ps.setString(2, Admin.getNombres());
 				ps.setString(3, Admin.getApellido_paterno());

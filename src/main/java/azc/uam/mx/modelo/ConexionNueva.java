@@ -27,7 +27,7 @@ public class ConexionNueva {
     public String user = "adminEfxRTlC";
     public String pass = "ms8Wu9_pNJHy";
     */
-    public String db = "Biblioteca";
+    public String db = System.getenv("db");
     public String url = "jdbc:mysql://localhost/"+db+"?autoReconnect=true&useSSL=false";
     public String user = "root";
     public String pass = "rox123";

@@ -110,7 +110,7 @@ public class ServletRegistrarUsuario extends HttpServlet {
 				 */
 
 				//   String matricula =request.getParameter("matricula"); 
-			//	user.setMatricula(Validando.isNumericLong(request.getParameter("matricula")));
+				//user.setMatricula(Validando.isNumericLong(request.getParameter("matricula")));
 				System.out.println("MMMAtriculaaa");
 
 				/*   if(matricula.equals(""))
