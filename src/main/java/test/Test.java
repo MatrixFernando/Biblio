@@ -20,19 +20,6 @@ public class Test {
 		byte ro = 127;
 		System.out.println("df" + ro);
 		
-		
-		System.out.println("iiiiiiiii");
-	TestDOS ok=new TestDOS();
-	
-	
-	ok.metododos();
-	
-	System.out.println("*****");
-	
-	ok.metodouno();
-		
-	System.out.println("ddddddddddddddd");
-	
 	
 	int a=2;
 

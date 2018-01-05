@@ -149,44 +149,6 @@ public class Validando
 			/*----->*/	return null; 
 		}
 	}
-/*
-	public static Long UnLong(String cadena)
-	{
-		Long datoLong=null;
-		if(cadena.equals(""))
-		{
-			return null;
-
-			//	}else if(Validando.isNumericLong(cadena)){
-			//			datoLong=Long.parseLong(cadena);
-			//			return datoLong;
-
-		}else{
-			return null;
-		}
-
-	}*/
-	/*
-	public static Integer UnInteger(String cadena){
-		Integer datoentero = null;
-		 System.out.println("YESSS");
-		if(cadena.equals(""))
-		{
-			return null;
-		}  else if(Validando.isNumericInteger(cadena))
-		{ System.out.println("YESSS");
-				 datoentero=Integer.parseInt(cadena); 
-				 System.out.println("YESSS");
-				 return datoentero;
-				 //<------------
-			}else {
-
-				return null;
-			}
-
-
-	}*/
-
 
 	// Metodo que pone en mayuscula las primeras letras de las palabras
 	public static String converMayus(String cadena) {
